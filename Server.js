@@ -27,7 +27,7 @@ app.use(cookieParser());
 // Middleware setup
 app.use(
   cors({
-    origin: ["https://strong-wisp-f6d2b7.netlify.app/", "http://localhost:5173"], // example of multiple origins
+    origin: ["https://strong-wisp-f6d2b7.netlify.app", "http://localhost:5173"], // example of multiple origins
     credentials: true,
   })
 );
